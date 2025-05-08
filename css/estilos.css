@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: lightskyblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.title {
+    color: darkolivegreen;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    border: 4px teal solid;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    height: 50px;
+}
+.subtitle {
+    text-align: center;
+    color: green;
+}
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: green;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+.tarjetas label {
+    height: 250px;
+}
+.tarjetas-de-mascotas {
+    background-color: #6DE1D2;
+    border: 2px solid #328E6E;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetas-de-mascotas img {
+    width: 200px;
+    height: 250px;
+}
+.boton-seleccionar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#boton-mascota {
+    background-color: transparent;
+    border: 2px solid #328E6E;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    color: green;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+input {
+    display: none;
+}
+
+#batalla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.boton-de-ataque {
+    background-color: lightseagreen;
+    border: 2px solid #328E6E;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 2px;
+    color: green;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+#resultado {
+    background-color: #7AE2CF;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  color: green;
+  font-size: 20px;
+  font-family: "poppins";
+  font-weight: 500;
+}

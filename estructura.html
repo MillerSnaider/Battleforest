@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>BattleForest🔥💧🌱</title>
+        <script src="./js/bf.js"></script>
+        <link rel="stylesheet" href="./css/estilos.css" />
+    <body>
+        <!--<h1 class="title">BattleForest🔥💧🌱</h1>-->
+        <!--SELECCION DE MASCOTAS-->
+        <section id="seleccionar-mascota"> 
+                <h1 class="title">BattleForest🔥💧🌱</h1>
+
+                <h2 class="subtitle">Elige a tu mascota:</h2>
+            <div class="tarjetas"> 
+                <input type="radio" name="mascota" id="Godzilla">
+                <label class="tarjetas-de-mascotas" for="Godzilla">
+                    <p>Godzilla</p>
+                    <img src="./assets/Godzzilla_Battleforest.png" alt="Godzilla">
+                </label> 
+
+                <input type="radio" name="mascota" id="Cerberus">
+                <label class="tarjetas-de-mascotas" for="Cerberus">
+                    <p>Cerberus</p>
+                    <img src="./assets/Cerbero_Battleforest.png" alt="Cerberus">
+                </label>
+
+                <input type="radio" name="mascota" id="Griffin">
+                <label class="tarjetas-de-mascotas" for="Griffin">
+                    <p>Griffin</p>
+                    <img src="./assets/Griffin_Battleforest.png" alt="Griffin">
+                </label>
+
+                <input type="radio" name="mascota" id="Draco">
+                <label class="tarjetas-de-mascotas" for="Draco">
+                    <p>Draco</p>
+                    <img src="./assets/Draco_Battleforest.png" alt="Draco">
+                </label>
+
+                <input type="radio" name="mascota" id="Phoenix">
+                <label class="tarjetas-de-mascotas" for="Phoenix">
+                    <p>Phoenix</p>
+                    <img src="./assets/Phoenix_Battleforest.png" alt="Phoenix">
+                </label> <br>
+
+                <input type="radio" name="mascota" id="Hydra">
+                <label class="tarjetas-de-mascotas" for="Hydra">
+                    <p>Hydra</p>
+                    <img src="./assets/Hydra_Battleforest.png" alt="Hydra">
+                </label> <br>
+            </div>
+        <!--mascotas:
+            
+            Godzilla -> Agua y planta
+            Cerberus -> Fuego y Planta
+            Griffin ->  Fuego y Agua
+            Draco -> Agua
+            Phoenix -> Fuego
+            Hydra -> Planta
+        --><div class="boton-seleccionar">
+            <button id="boton-mascota">Seleccionar</button>
+        </div>
+        </section>
+        <!--SELECCION DE ATAQUES-->
+        <section id="seleccionar-ataque">
+            <h1 class="title">BattleForest🔥💧🌱</h1>
+            <h2 class="subtitle">Elige tus ataques:</h2>
+        <section id="batalla">
+            <div>
+                <button id="boton-fuego" class="boton-de-ataque">Fuego🔥</button>
+                <button id="boton-agua"  class="boton-de-ataque">Agua💧</button>
+                <button id="boton-planta"class="boton-de-ataque">Planta🌱</button>
+            </div>
+
+            <div id="mensajes">
+                    <p id="resultado">Mucha suerte</p>
+
+                    <section id="reiniciar">
+                        <button id="boton-reiniciar">reiniciar</button>
+                    </section>
+            </div>
+                
+            <div>
+                <div id="ataques-del-jugador"></div>
+                <div id="ataques-del-rival"></div>
+                <p>Tu mascota <span id="Mascota-jugador"></span> tiene <span id="Vidas-jugador">3</span> vidas</p>
+                <p>La mascota rival <span id="Mascota-rival"></span> tiene <span id="Vidas-rival">3</span> vidas</p>
+            </div>
+        </section>
+        </section>
+    </body>
+</html>
